@@ -1,0 +1,11 @@
+metric,value,description
+folios_analyzed,130,"Number of Voynich folios analyzed"
+percentage_coverage,66.3,"Percentage of complete manuscript"
+CI_mean,0.512,"Mean Continuum Index"
+CI_std,0.198,"Standard deviation of CI"
+bifolio_coherence,96.9,"Intra-bifolio stylistic coherence (%)"
+random_forest_accuracy,72.3,"Accuracy predicting quire from features (%)"
+ARI_score,0.587,"Adjusted Rand Index (quire vs clustering)"
+extreme_alpha_count,23,"Number of 'extreme α' folios"
+currier_A_count,68,"Folios classified as Currier A"
+currier_B_count,62,"Folios classified as Currier B"
