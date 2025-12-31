@@ -1,0 +1,40 @@
+{
+  "project": "Nordico Paradigm - Voynich Manuscript Analysis",
+  "description": "Quantitative analysis of stylistic continuity in the Voynich Manuscript",
+  "author": "Ben Yamoun Ali",
+  "contact": "nordico.research@gmail.com",
+  "repository": "https://github.com/secours84-ai/nordico-voynich",
+  
+  "analysis_summary": {
+    "folios_analyzed": 130,
+    "percentage_of_manuscript": 66.3,
+    "CI_statistics": {
+      "mean": 0.512,
+      "std": 0.198,
+      "min": 0.101,
+      "max": 1.000
+    },
+    "regime_distribution": {
+      "α extreme": 23,
+      "α standard": 55,
+      "β": 39,
+      "β extreme": 11
+    },
+    "key_findings": [
+      "Rejection of Currier A/B dichotomy (p < 0.000001)",
+      "Continuous stylistic gradient identified",
+      "Strong modular organization by quire (ARI = 0.587)",
+      "Discovery of 'extreme α' category"
+    ]
+  },
+  
+  "methodology": {
+    "metrics": ["P_o", "R_vc"],
+    "CI_formula": "CI = 0.72 × P_o_norm + 0.28 × R_vc_norm",
+    "functional_systems": ["OTAL", "CHOR", "QOK"],
+    "validation_methods": ["PCA", "Random Forest", "ANOVA", "Clustering"]
+  },
+  
+  "note": "Complete dataset with 130 folio analyses will be added in a future update.",
+  "last_updated": "2024-01-15"
+}
